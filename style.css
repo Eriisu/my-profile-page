@@ -1,0 +1,211 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.heading {
+  font-family: 'Oxygen', sans-serif;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: rgb(240, 240, 240);
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.name {
+  color: #2a941c;
+  text-shadow:
+    -1px -1px 0 #6fcf62,
+    1px -1px 0 #6fcf62,
+    -1px 1px 0 #6fcf62,
+    1px 1px 0 #6fcf62;
+}
+
+.lewagon-link {
+  color: #2a941c;
+  transition: 0.3s;
+}
+
+.lewagon-link:hover {
+  color: #6fcf62;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.project-button a {
+  text-decoration: none;
+  color:#444444;
+}
+
+.project-button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.bouncy{
+  animation: bouncy 5s infinite linear;
+  position: relative;
+}
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em}
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  color:#444444;
+}
+
+.small-text {
+  font-size: 11px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.fab {
+  color: #2a941c;
+  font-size: 40px;
+  text-shadow:
+    -1px -1px 0 #2f5a2a,
+    1px -1px 0 #2f5a2a,
+    -1px 1px 0 #2f5a2a,
+    1px 1px 0 #2f5a2a;
+  transition: all .2s ease-in-out;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  background-color: #363636;
+  width: 700px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px rgb(105, 105, 105);
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.about-card {
+  background-color: #363636;
+  width: 250px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px rgb(105, 105, 105);
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: all .2s ease-in-out;
+}
+
+.about-card-container {
+  display:flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.about-card:hover {
+  transform: scale(1.1);
+}
+
+.about-me {
+  display:flex;
+  justify-content: center;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgba(195, 240, 137, 0.3), rgba(82, 124, 70, 0.4)), url('https://wallpapercave.com/wp/wp4670855.jpg');
+  background-attachment: fixed;
+  background-size : cover;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/58f8719c20099e4ee8f00783/1560858968195-3VYKW8C7IK00782IBJ8N/Wallpaper-Malavida-Green-Top-Image.jpg?format=1000w');
+  background-attachment: fixed;
+  background-size : cover;
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/26/44/oZMkVC.jpg');
+  background-attachment: fixed;
+  background-size : cover;
+}
