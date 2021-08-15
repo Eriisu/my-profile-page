@@ -3,6 +3,15 @@
   .aboutcard {
     width: 700px;
   }
+  .section1 {
+    background-image: linear-gradient(45deg, rgba(195, 240, 137, 0.3), rgba(82, 124, 70, 0.4)), url('https://wallpapercave.com/wp/wp4670855.jpg');
+  }
+  .section2 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/58f8719c20099e4ee8f00783/1560858968195-3VYKW8C7IK00782IBJ8N/Wallpaper-Malavida-Green-Top-Image.jpg?format=1000w');
+  }
+  .section3 {
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/26/44/oZMkVC.jpg');
+  }
 }
 @media (max-width: 1200px) {
   /* For a screen < 960px, this CSS will be read */
@@ -27,6 +36,15 @@
   .aboutcard {
     width: 300px;
   }
+  .section1 {
+    background-image: linear-gradient(45deg, rgba(60, 63, 57, 0.3), rgba(54, 58, 53, 0.4)), url('https://images.unsplash.com/photo-1556648011-e01aca870a81?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbmZvcmVzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+  }
+  .section2 {
+    background-image: url('https://wallpaperaccess.com/full/908994.jpg');
+  }
+  .section3 {
+    background-image: url('https://i.pinimg.com/originals/13/b8/d8/13b8d82ecd057469f2d5fcfcd5c3945e.jpg');
+  }
 }
 
 .section1 {
@@ -36,7 +54,7 @@
   align-items: center;
   height: 100vh;
   background-color: #000;
-  background-image: linear-gradient(45deg, rgba(195, 240, 137, 0.3), rgba(82, 124, 70, 0.4)), url('https://wallpapercave.com/wp/wp4670855.jpg');
+  /* background-image: linear-gradient(45deg, rgba(195, 240, 137, 0.3), rgba(82, 124, 70, 0.4)), url('https://wallpapercave.com/wp/wp4670855.jpg'); */
   background-attachment: fixed;
   background-size : cover;
 }
@@ -147,7 +165,7 @@ h1 {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: url('https://images.squarespace-cdn.com/content/v1/58f8719c20099e4ee8f00783/1560858968195-3VYKW8C7IK00782IBJ8N/Wallpaper-Malavida-Green-Top-Image.jpg?format=1000w');
+  /* background-image: url('https://images.squarespace-cdn.com/content/v1/58f8719c20099e4ee8f00783/1560858968195-3VYKW8C7IK00782IBJ8N/Wallpaper-Malavida-Green-Top-Image.jpg?format=1000w'); */
   background-attachment: fixed;
   background-size : cover;
 }
@@ -186,7 +204,7 @@ h1 {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/26/44/oZMkVC.jpg');
+  /* background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/26/44/oZMkVC.jpg'); */
   background-attachment: fixed;
   background-size : cover;
 }
